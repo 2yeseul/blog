@@ -1,11 +1,11 @@
 const config = {
-  title: 'Lavender Blog',     // Blog name
-  author: 'Hubert Selby Jr.', // Your name
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  siteUrl: 'https://gatsby-starter-lavender.vercel.app',
+  title: 'Seulog',     // Blog name
+  author: '2yeseul', // Your name
+  description: '무한삽질 아카이빙',
+  siteUrl: 'https://seulog.netlify.app/',
   thumbnail: '/thumbnails/main.png',  // Default blog thumbnail. i.e. '/thumbnails/main.png'
   social: {
-    github: 'blurfx',   // GitHub username
+    github: '2yeseul',   // GitHub username
     twitter: '',        // Twitter username
     facebook: '',       // Facebook username
     linkedin: '',       // LinkedIn username

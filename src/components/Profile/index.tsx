@@ -64,7 +64,7 @@ const Profile = () => {
         className='profile-image'
         layout='fixed'
         formats={['auto', 'webp', 'avif']}
-        src='../../images/profile-pic.jpeg'
+        src='https://seulog.netlify.app/static/8b2865f7bcab575cadd868b62aafb8f7/a12fc/profile.png'
         width={70}
         height={70}
         quality={95}
