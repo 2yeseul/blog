@@ -1,5 +1,5 @@
 const config = {
-  title: 'Seulog',     // Blog name
+  title: 'Seulog 🦄',     // Blog name
   author: '2yeseul', // Your name
   description: '무한삽질 아카이빙',
   siteUrl: 'https://seulog.netlify.app/',
@@ -12,7 +12,7 @@ const config = {
     instagram: '',      // Instagram username
   },
   comment: {
-    utterances: 'blurfx/gatsby-starter-lavender', // Your GitHub repository
+    utterances: '2yeseul/seulog_v2', // Your GitHub repository
     disqusShortName: '',  // Disqus short name
   },
   icon: 'src/images/gatsby-icon.png', // path of blog icon
