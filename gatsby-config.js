@@ -14,10 +14,3 @@ const config = require('./gatsby-config.ts');
 delete config['__esModule'];
 
 module.exports = config;
-
-module.exports = {
-  siteMetadata: {
-    siteUrl: "https://seulog.netlify.app/"
-  },
-  plugins: ["gatsby-plugin-sitemap"],
-}
