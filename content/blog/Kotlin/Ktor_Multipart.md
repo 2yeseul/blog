@@ -53,6 +53,9 @@ suspend fun uploadFile(multipartFile: MultipartFile): String {
 
 주의할 점.. Header `ContentType`과 `ContentDisposition` 두 개 다 써주어야 한다. 나는 정말 개쪼렙이라 아무생각 없이 바꾸고 수정하고 빼보고 더해보고 다해봤다가 그냥 공식 코드 그대로 써보니 바로 잘 되어서..정말 반성을 많이했다 ㅎㅎ;
 
+요약
+> 공식 문서나 제대로 보자
+
 ---
 
 공식 레퍼런스 주소 - https://ktor.io/docs/request.html#upload_file

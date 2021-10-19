@@ -21,10 +21,3 @@ module.exports = {
   },
   plugins: ["gatsby-plugin-sitemap"],
 }
-
-module.exports = {
-  siteMetadata: {
-    siteUrl: "https://seulog.netlify.app/"
-  },
-  plugins: ["gatsby-plugin-robots-txt"],
-}
