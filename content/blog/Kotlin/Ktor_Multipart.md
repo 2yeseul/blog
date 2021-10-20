@@ -1,5 +1,5 @@
 ---
-title: 'ktor 를 통해 mutlpart 파일 업로드 하기'
+title: 'ktor 를 통해 multipart 파일 업로드 하기'
 date: 2021-10-19 00:00:00
 description: "무한삽질기록"
 tags: [Kotlin]
