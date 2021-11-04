@@ -15,7 +15,7 @@ const config = {
     utterances: '2yeseul/seulog_v2', // Your GitHub repository
     disqusShortName: '',  // Disqus short name
   },
-  icon: 'src/images/gatsby-icon.png', // path of blog icon
+  icon: 'src/images/my-icon.png', // path of blog icon
   googleAnalytics: 'google-site-verification=jbnByMUioP7QU88fDr4uVAk1AU6A6TuvD6VdITa3bYo',  // Google Analytics tracking id
 };
 
