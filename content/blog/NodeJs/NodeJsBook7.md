@@ -1,6 +1,6 @@
 ---
 title: '[Node.js 교과서] - 7장 Sequelize'
-date: 2021-11-01 00:00:00
+date: 2021-11-07 00:00:00
 description: "Node.js 교과서 7장 Sequelize을 정리합니다."
 tags: [Java, SpringBoot]
 thumbnail: 
