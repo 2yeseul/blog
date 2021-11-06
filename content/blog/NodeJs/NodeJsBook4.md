@@ -1,6 +1,6 @@
 ---
 title: '[Node.js 교과서] - 4장 npm 정리'
-date: 2021-11-04 00:00:00
+date: 2021-11-05 00:00:00
 description: "Node.js 교과서 4장 npm을 정리합니다."
 tags: [Node.js, Javascript]
 thumbnail: 
