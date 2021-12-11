@@ -1,6 +1,6 @@
 ---
 title: 'Strategy Pattern'
-date: 2021-10-02 00:00:00
+date: 2021-10-02 22:38:00
 description: "전략패턴을 정리합니다."
 tags: [DesignPattern]
 thumbnail:
