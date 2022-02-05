@@ -114,3 +114,7 @@ Stack Frame은 총 세 가지 속성으로 구성된다.
 
 ### Heap
 - 인스턴스 또는 객체를 저장하는 곳으로, GC의 대상이다.
+
+출처 
+- 인프런 강의 : 더 자바, 코드를 조작하는 다양한 방법(백기선)
+- d2 naver https://d2.naver.com/helloworld/1230
