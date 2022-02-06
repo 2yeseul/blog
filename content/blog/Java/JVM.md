@@ -115,6 +115,39 @@ Stack Frame은 총 세 가지 속성으로 구성된다.
 ### Heap
 - 인스턴스 또는 객체를 저장하는 곳으로, GC의 대상이다.
 
+---
+# 예제
+
+다음과 같은 클래스와 main 함수가 있다고 가정하자. 
+```java
+public class Example {
+    private final static String value = "예제";
+
+    public String getValue() {
+        return value;
+    }
+
+    public static void main(String[] args) {
+        Example example = new Example();
+        String value = example.getValue();
+    }
+}
+```
+
+1. 우선 자바의 컴파일러가 해당 코드를 바이트코드로 변환한다.
+2. 클래스 로더가 바이트코드를 통해 클래스, static 변수, 인스턴스, 인터페이스, 메서드 등을 읽은 뒤, 런타임 데이터 영역에 적재한다.
+  - 로딩을 통해 Example 클래스, static value, main 메서드, getValue 메서드를 런타임 데이터 영역의 메서드 영역에 저장한다.
+  이 때 클래스와 메서드, 필드 등에 대한 모든 레퍼런스는 런타임 상수 풀에 저장된다. 링크 작업 시 심볼릭 레퍼런스가 다이렉트 레퍼런스로 변경된다.
+  - 로딩이 끝나면 Example 클래스의 Class 객체를 생성하여 Heap에 저장한다.
+  - 그 다음 링크 작업을 통해 유효성을 검증하고, 데이터 구조를 준비하며, 상수풀 내의 모든 심볼릭 레퍼런스를 다이렉트 레퍼런스로 변경한다.
+  - 그 뒤 static initializer를 통해 static 필드를 설정된 값으로 초기화한다. 
+3. 실제 메소드가 실행될 때 스택 프레임이 생성되므로, main 메소드에 대한 스태틱 프레임과 Example의 getValue 메서드에 대한 스택 프레임이 생성된다. 그리고 생성된 스택 프레임은 JVM Stack에 저장된다.
+
+|[value]|
+|--|
+|[args, example, value]|
+(static method이기 때문에 인스턴스 X )
+
 출처 
 - 인프런 강의 : 더 자바, 코드를 조작하는 다양한 방법(백기선)
 - d2 naver https://d2.naver.com/helloworld/1230
